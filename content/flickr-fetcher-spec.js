@@ -4,8 +4,6 @@ var FlickrFetcher = require('./flickr-fetcher');
 
 describe('FlickrFetcher', function () {
     it('should exist', function () {
-        var FlickrFetcher = require('./flickr-fetcher.js');
-
         expect(FlickrFetcher).to.not.be.undefined;
     });
 });
@@ -202,4 +200,4 @@ describe('#fetchPhotos()', function () {
                 expect(actual).to.eql(expected);
             })
     });
-})
+});
